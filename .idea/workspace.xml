@@ -34,16 +34,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Run IRC.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "leesu9042",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/TtT Study/proj-irc",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15917969",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
@@ -68,6 +70,7 @@
       <updated>1736914252433</updated>
       <workItem from="1736914254197" duration="867000" />
       <workItem from="1736916498816" duration="5468000" />
+      <workItem from="1745215933570" duration="2897000" />
     </task>
     <servers />
   </component>
