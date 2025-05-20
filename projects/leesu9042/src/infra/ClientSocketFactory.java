@@ -13,7 +13,9 @@ public class ClientSocketFactory {
 
     public ClientSocketFactory(int port) throws IOException {
         InetAddress localOnly = InetAddress.getByName("127.0.0.1");
+
         this.serverSocket = new ServerSocket(port, 0, localOnly);
+
         System.out.println("SocketFactory가 127.0.0.1:" + port + " 에 바인딩됨");
     }
 
