@@ -1,13 +1,17 @@
 package controller;
 
+import dto.User;
+
 import java.io.*;
 import java.net.*;
 
 public class ClientHandler implements Runnable {
     private final Socket socket;
+    private final User user;
 
-    public ClientHandler(Socket socket) {
+    public ClientHandler(Socket socket, User user) {
         this.socket = socket;
+        this.user = user;
     }
 
     @Override
@@ -19,8 +23,11 @@ public class ClientHandler implements Runnable {
             out.println("서버에 연결되었습니다.");
 
             String msg;
+
             while ((msg = in.readLine()) != null) {
                 if ("bye".equalsIgnoreCase(msg)) break;
+
+
                 out.println("서버: " + msg);
             }
 
