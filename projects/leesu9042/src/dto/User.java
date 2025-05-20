@@ -1,8 +1,17 @@
 package dto;
 
 public class User {
-    private String username;
-    private String id;
+    private final String id;             // fix
+    private String username;             // modifiable
+
+    public User(String id, String username) {
+        this.id = id;
+        this.username = username;
+    }
+
+    public String getId() {
+        return id;
+    }
 
     public String getUsername() {
         return username;
@@ -11,12 +20,6 @@ public class User {
     public void setUsername(String username) {
         this.username = username;
     }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
 }
+
+
