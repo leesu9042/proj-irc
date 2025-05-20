@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffa46851-6019-4dbc-8d0a-e9f21dcb7a21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/projects/leesu9042/src/application/IRCApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/leesu9042/src/infra/ClientHandlerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/leesu9042/src/infra/UserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/leesu9042/src/repository/ClientHandlerManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/leesu9042/src/repository/InMemoryUserRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/leesu9042/src/repository/UserRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/leesu9042/src/service/ClientConnectionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/leesu9042/src/service/ClientHandlerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/leesu9042/src/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/leesu9042/src/IRCServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/leesu9042/src/server/IRCServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/leesu9042/src/IRCServer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/leesu9042/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/leesu9042/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/leesu9042/src/controller/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/leesu9042/src/controller/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/leesu9042/src/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/leesu9042/src/dto/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/leesu9042/src/infra/ClientSocketFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/leesu9042/src/infra/ClientSocketFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/mjmj1/irc/irc.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/projects/mjmj1/irc/irc.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/mjmj1/irc/irc.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/projects/mjmj1/irc/irc.vcxproj.filters" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +84,7 @@
       <workItem from="1746065269069" duration="13725000" />
       <workItem from="1747226261718" duration="7377000" />
       <workItem from="1747642985589" duration="517000" />
-      <workItem from="1747643520639" duration="17138000" />
+      <workItem from="1747643520639" duration="17733000" />
     </task>
     <servers />
   </component>
